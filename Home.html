@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<div class="container">
+    <header>
+        <h1>My To-Do Lists</h1>
+        <link rel="stylesheet" href="Home.css">
+    </header>
+    <main>
+        <div class="list-container">
+            <h2>Create a New List</h2>
+            <form>
+                <label>List Name:</label>
+                <input type="text" placeholder="Enter list name">
+                <label>Deadline:</label>
+                <input type="date" placeholder="Enter list deadline">
+                <button>Create List</button>
+            </form>
+            <ul class="list">
+                <li class="list-item">
+                    <input type="checkbox">
+                    <span class="list-item-name">Task 1</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
+            </ul>
+            <form class="add-task-form">
+                <input type="text" placeholder="Enter task name">
+                <button>Add Task</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <button class="toggle-dark-mode-btn">Toggle Dark Mode</button>
+    </footer>
+    <script src="Home.js"></script>
+</div>
